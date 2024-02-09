@@ -1,0 +1,209 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.money-manager-container {
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  height: 100vh;
+}
+.transaction-history-ul-container {
+  width: 100%;
+}
+.user-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  width: 100%;
+  border-radius: 20px;
+}
+.user-name {
+  font-size: 30px;
+  color: #475569;
+  margin: 10px;
+}
+.user-greeting {
+  font-size: 20px;
+  color: #475569;
+  margin: 10px;
+}
+
+.user-greeting-span {
+  color: #0b69ff;
+}
+.money-details-container {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.transactions-and-history-container {
+  display: flex;
+  width: 100%;
+}
+.transactions-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  padding: 40px 30px;
+  width: 100%;
+}
+.transactions-heading {
+  font-size: 25px;
+  color: #475569;
+}
+.transactions-input-label {
+  font-size: 20px;
+  color: #cbd5e1;
+  margin: 30px 0px 10px 0px;
+}
+.transactions-input-text {
+  padding: 10px;
+  font-size: 20px;
+  color: #cbd5e1;
+}
+.transactions-input-select {
+  padding: 10px;
+  font-size: 20px;
+  color: #475569;
+}
+
+.transactions-submit-button {
+  background-color: #0b69ff;
+  font-size: 22px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  align-self: flex-start;
+  margin-top: 20px;
+}
+.transactions-history-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  padding: 30px 20px;
+  width: 100%;
+  margin-top: 30px;
+}
+.transactions-history-heading {
+  font-size: 25px;
+  color: #475569;
+  margin-bottom: 20px;
+}
+.transactions-history-list-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #cbd5e1;
+  padding: 0px;
+  margin: 0px;
+}
+.transactions-history-list-main-row {
+  display: flex;
+  border: 1px solid #cbd5e1;
+  margin: 0px;
+  padding: 7px;
+}
+.transactions-history-list-main-row-title {
+  font-size: 15px;
+  color: #475569;
+  width: 20vw;
+  text-align: start;
+}
+.transactions-history-list-main-row-amount {
+  font-size: 15px;
+  color: #475569;
+  width: 20vw;
+  text-align: start;
+}
+.transactions-history-list-main-row-type {
+  font-size: 15px;
+  color: #475569;
+  width: 20vw;
+  text-align: start;
+}
+
+@media (min-width: 768px) {
+  .money-manager-container {
+    padding: 50px 80px;
+  }
+
+  .user-container {
+    justify-content: flex-end;
+    align-items: flex-start;
+    text-align: start;
+    padding: 40px;
+  }
+  .user-name {
+    font-size: 35px;
+  }
+  .user-greeting {
+    font-size: 25px;
+  }
+
+  .money-details-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .transactions-container {
+    padding: 40px 30px;
+    width: 35vw;
+    margin: 30px 0px 30px 0px;
+  }
+  .transactions-heading {
+    font-size: 25px;
+  }
+  .transactions-input-label {
+    font-size: 20px;
+    margin: 30px 0px 10px 0px;
+  }
+  .transactions-input-text {
+    padding: 10px;
+    font-size: 20px;
+    color: #cbd5e1;
+  }
+  .transactions-input-select {
+    padding: 10px;
+    font-size: 20px;
+    color: #475569;
+  }
+
+  .transactions-history-container {
+    padding: 30px 20px;
+    width: 45vw;
+    margin: 30px 0px 30px 30px;
+    flex-grow: 1;
+  }
+  .transactions-history-heading {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .transactions-history-list-main-row {
+    display: flex;
+    border: 1px solid #cbd5e1;
+    margin: 0px;
+    padding: 10px;
+  }
+  .transactions-history-list-main-row-title {
+    font-size: 20px;
+  }
+  .transactions-history-list-main-row-amount {
+    font-size: 20px;
+  }
+  .transactions-history-list-main-row-type {
+    font-size: 20px;
+  }
+}

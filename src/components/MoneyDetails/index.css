@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.total-container {
+  display: flex;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 20px 0px 20px 0px;
+}
+
+.total-image {
+  width: 80px;
+  border-radius: 35px;
+  margin-right: 20px;
+}
+.total-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.total-text-description {
+  font-size: 20px;
+  color: #475569;
+  margin: 10px;
+}
+.total-text-amount {
+  font-size: 20px;
+  color: #475569;
+  margin: 10px;
+}
+.balance {
+  border: 1px solid #84cc16;
+  background-color: #ecfccb;
+}
+.income {
+  border: 1px solid #06b6d4;
+  background-color: #cffafe;
+}
+
+.expenses {
+  border: 1px solid #7c3aed;
+  background-color: #ede9fe;
+}
+
+@media (min-width: 768px) {
+  .total-container {
+    
+    width: 25vw;
+  }
+
+  .total-image {
+    width: 80px;
+
+  }
+
+  .total-text-description {
+    font-size: 20px;
+    color: #475569;
+    margin: 10px;
+  }
+  .total-text-amount {
+    font-size: 20px;
+    color: #475569;
+    margin: 10px;
+  }
+}
