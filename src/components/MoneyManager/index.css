@@ -4,6 +4,46 @@
   margin: 0px;
 }
 
+@keyframes beating {
+  0% {
+    font-size: 10px;
+  }
+
+  100% {
+    font-size: 20px;
+  }
+}
+
+.heart-beat {
+  width: 10px;
+  height: 10px;
+  animation: beating 0.8s infinite;
+  font-size: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 6px;
+}
+
+.footer-section {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 8px;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
+.footer-info {
+  font-family: Outfit, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: rgb(148, 163, 184);
+}
+
 .money-manager-container {
   padding: 40px 30px;
   display: flex;

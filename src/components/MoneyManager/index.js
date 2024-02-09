@@ -223,6 +223,14 @@ class MoneyManager extends Component {
             </ul>
           </div>
         </div>
+        <div className="footer-section footer-mobile ">
+          <div className="footer-info m-auto ">
+            <p>
+              Developed with <span className="heart-beat "> ❤️ </span> by Sai
+              Rama Krishna{' '}
+            </p>
+          </div>
+        </div>
       </div>
     )
   }
